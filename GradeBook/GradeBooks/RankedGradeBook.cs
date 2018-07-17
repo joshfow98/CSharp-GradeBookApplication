@@ -28,8 +28,6 @@ namespace GradeBook.GradeBooks
                 return 'C';
             else if (grades[(threshold * 4) - 1] <= averageGrade)
                 return 'D';
-            else if (grades[(threshold * 5) - 1] <= averageGrade)
-                return 'E';
             else
                 return 'F';
         }
